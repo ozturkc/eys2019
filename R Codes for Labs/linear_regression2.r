@@ -2,7 +2,7 @@ require(data.table)
 # aynı şekilde çalıştıralabilir
 library(data.table)
 
-setwd('C:/mustafa/Seminer/EYS19/Data/Housing_Data/')
+#setwd('C:/')
 veri_yolu="housingdata.csv"
 ev_veri=fread(veri_yolu)
 str(ev_veri)
